@@ -1,0 +1,21 @@
+// Services – typical plumbing & heating work. CONFIRM the list with Jorge (the Yell page couldn't be read automatically).
+module.exports = [
+  { id: 'boilers', icon: 'flame', img: 'living-fireplace', alt: 'Warm, bright living room', title: 'Boiler Service & Repair', price: '',
+    intro: 'Keep your boiler safe and efficient with a yearly service, and get it running again quickly when it breaks down.',
+    points: ['Annual boiler servicing', 'Breakdowns and fault finding', 'Boiler replacements', 'Pressure and ignition problems', 'Advice on efficient upgrades'] },
+  { id: 'heating', icon: 'gauge', img: 'radiator-heating', alt: 'White column radiator', title: 'Central Heating & Radiators', price: '',
+    intro: 'Cold radiators, noisy pipes or a system that never quite warms up? We’ll get your heating working properly.',
+    points: ['Radiator installation and replacement', 'Cold spots and bleeding', 'Thermostats and controls', 'Pumps and valves', 'Heating system upgrades'] },
+  { id: 'repairs', icon: 'drop', img: 'leak-pipework', alt: 'Copper and steel pipework', title: 'Plumbing Repairs & Leaks', price: '',
+    intro: 'Leaks, drips and burst pipes fixed properly, with the cause found so it doesn’t come back.',
+    points: ['Leak detection and repair', 'Burst and damaged pipes', 'Dripping taps and running toilets', 'Stopcocks and isolation valves', 'Low water pressure'] },
+  { id: 'bathrooms', icon: 'sparkle', img: 'bathroom-dark', alt: 'Bathroom with walk-in shower and freestanding bath', title: 'Bathrooms & Showers', price: '',
+    intro: 'New bathrooms, shower installs and upgrades, fitted neatly with all the plumbing taken care of.',
+    points: ['Full bathroom installations', 'Shower installation and replacement', 'Baths, basins and toilets', 'Waste and pipework', 'Sealing and finishing'] },
+  { id: 'kitchens', icon: 'home', img: 'kitchen-sink', alt: 'Bright kitchen with sink under the window', title: 'Kitchen Plumbing & Taps', price: '',
+    intro: 'Sinks, taps and appliance connections for new and existing kitchens.',
+    points: ['Kitchen sinks and taps', 'Washing machine and dishwasher plumbing', 'Outside taps', 'Water filters and softeners', 'Pipework for new kitchens'] },
+  { id: 'gas-safety', icon: 'shield', img: 'engineer-pipe', alt: 'Engineer working on pipework', title: 'Gas Safety & Landlord Checks', price: '',
+    intro: 'Gas safety checks for homeowners and the yearly landlord gas safety record for rented properties.',
+    points: ['Gas appliance safety checks', 'Landlord gas safety records (CP12)', 'Hob and cooker connections', 'Gas leak investigation', 'Clear written records'] },
+];
